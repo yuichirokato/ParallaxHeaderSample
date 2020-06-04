@@ -15,6 +15,10 @@
 		04935D16247A2F06004DF684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04935D14247A2F06004DF684 /* LaunchScreen.storyboard */; };
 		04935D21247A2F07004DF684 /* PrallaxHeaderSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935D20247A2F07004DF684 /* PrallaxHeaderSampleTests.swift */; };
 		04935D2C247A2F07004DF684 /* PrallaxHeaderSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935D2B247A2F07004DF684 /* PrallaxHeaderSampleUITests.swift */; };
+		04935D3A247A2F26004DF684 /* ParallaxHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935D39247A2F26004DF684 /* ParallaxHeaderView.swift */; };
+		04935D3E247A34AD004DF684 /* ParallaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935D3D247A34AD004DF684 /* ParallaxView.swift */; };
+		04935D40247A6772004DF684 /* ParallaxScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935D3F247A6772004DF684 /* ParallaxScrollView.swift */; };
+		04935D422489333B004DF684 /* PrallaxScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04935D412489333B004DF684 /* PrallaxScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		04935D27247A2F07004DF684 /* PrallaxHeaderSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrallaxHeaderSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04935D2B247A2F07004DF684 /* PrallaxHeaderSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrallaxHeaderSampleUITests.swift; sourceTree = "<group>"; };
 		04935D2D247A2F07004DF684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04935D39247A2F26004DF684 /* ParallaxHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderView.swift; sourceTree = "<group>"; };
+		04935D3D247A34AD004DF684 /* ParallaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxView.swift; sourceTree = "<group>"; };
+		04935D3F247A6772004DF684 /* ParallaxScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxScrollView.swift; sourceTree = "<group>"; };
+		04935D412489333B004DF684 /* PrallaxScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrallaxScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				04935D12247A2F06004DF684 /* Assets.xcassets */,
 				04935D14247A2F06004DF684 /* LaunchScreen.storyboard */,
 				04935D17247A2F06004DF684 /* Info.plist */,
+				04935D39247A2F26004DF684 /* ParallaxHeaderView.swift */,
+				04935D3D247A34AD004DF684 /* ParallaxView.swift */,
+				04935D3F247A6772004DF684 /* ParallaxScrollView.swift */,
+				04935D412489333B004DF684 /* PrallaxScrollViewController.swift */,
 			);
 			path = PrallaxHeaderSample;
 			sourceTree = "<group>";
@@ -259,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04935D40247A6772004DF684 /* ParallaxScrollView.swift in Sources */,
 				04935D0E247A2F04004DF684 /* ViewController.swift in Sources */,
+				04935D422489333B004DF684 /* PrallaxScrollViewController.swift in Sources */,
 				04935D0A247A2F04004DF684 /* AppDelegate.swift in Sources */,
+				04935D3A247A2F26004DF684 /* ParallaxHeaderView.swift in Sources */,
 				04935D0C247A2F04004DF684 /* SceneDelegate.swift in Sources */,
+				04935D3E247A34AD004DF684 /* ParallaxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
