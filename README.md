@@ -1,7 +1,7 @@
 # ParallaxHeaderSample
 
 ### 概要
-MXParallaxHeader というライブラリの内容を Swift で書き直したサンプルです。
+MXParallaxHeader というライブラリの内容を Swift で書き直したサンプルです。  
 https://github.com/maxep/MXParallaxHeader
 
 ### 大まかなライブラリの構成
